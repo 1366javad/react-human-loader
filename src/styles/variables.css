@@ -1,0 +1,19 @@
+:root {
+  --rhl-bg: #ffffff;
+  --rhl-text: #111111;
+
+  --rhl-skeleton-base: #e5e7eb;
+  --rhl-skeleton-highlight: #f3f4f6;
+
+  --rhl-radius: 6px;
+
+  --rhl-animation-speed: 1.5s;
+}
+
+[data-rhl-theme="dark"] {
+  --rhl-bg: #111111;
+  --rhl-text: #ffffff;
+
+  --rhl-skeleton-base: #374151;
+  --rhl-skeleton-highlight: #4b5563;
+}
