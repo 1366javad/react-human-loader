@@ -1,13 +1,14 @@
 {
   "compilerOptions": {
+    "types": ["node"],
+    "moduleResolution": "bundler",
     "target": "ESNext",
     "module": "ESNext",
     "jsx": "react-jsx",
     "declaration": true,
-    "outDir": "dist",
-    "moduleResolution": "Node",
-    "strict": true,
+    "declarationDir": "./dist",
+    "emitDeclarationOnly": false,
+    "outDir": "./dist",
     "skipLibCheck": true
-  },
-  "include": ["src"]
+  }
 }

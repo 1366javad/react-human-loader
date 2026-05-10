@@ -10,7 +10,7 @@ export default defineConfig({
       entry: resolve(__dirname, "src/index.ts"),
       name: "ReactHumanLoader",
       fileName: "index",
-      formats: ["es", "umd"],
+      formats: ["es"],
     },
     rollupOptions: {
       external: ["react", "react-dom"],
